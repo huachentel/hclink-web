@@ -1,0 +1,17 @@
+Installation
+1. mkdir /hclink (If the hclink directory exists, it is not required)
+2. mkdir /data
+3. rm -rf /hclink/*
+4. tar -xvf hclink-web.tar.gz -C /hclink
+5. /hclink/setup/ubuntu_setup.sh reinstall
+6. cat /etc/hosts
+    127.0.0.1 localhost  default
+    #/etc/hosts It should contain what is shown above, and it needs to be added if it doesn't exist
+7. reboot
+
+Access the web
+1. PC accesses the network port of the equipment, and the network segment of the equipment should be set to be consistent with the PC.
+2. Enter IP in the browser to access the page.
+
+Modify terminal IMEI:
+vi /data/hclink/recovery/IMEI

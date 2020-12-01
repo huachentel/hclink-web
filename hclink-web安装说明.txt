@@ -1,0 +1,17 @@
+安装
+1. mkdir /hclink (若hclink存在则不需要)
+2. mkdir /data
+3. rm -rf /hclink/*
+4. tar -xvf hclink-web.tar.gz -C /hclink
+5. /hclink/setup/ubuntu_setup.sh reinstall
+6. cat /etc/hosts
+    127.0.0.1 localhost  default
+    #/etc/hosts 应包含如上所示内容, 不存在则需要添加
+7. reboot
+
+访问web
+1. pc接入设备网口，网段设为一致
+2. 浏览器输入IP 访问页面
+
+修改终端IMEI:
+vi /data/hclink/recovery/IMEI
