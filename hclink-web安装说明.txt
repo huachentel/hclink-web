@@ -2,7 +2,8 @@
 1. mkdir /hclink (若hclink存在则不需要)
 2. mkdir /data
 3. rm -rf /hclink/*
-4. tar -xvf hclink-web.tar.gz -C /hclink
+4. tar -xvf hclink-web_arm.tar.gz -C /hclink (arm)
+   tar -xvf hclink-web_x86.tar.gz -C /hclink (x86)
 5. /hclink/setup/ubuntu_setup.sh reinstall
 6. cat /etc/hosts
     127.0.0.1 localhost  default
