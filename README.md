@@ -6,8 +6,8 @@ git clone https://github.com/huachentel/hclink-web.git
 mkdir /hclink (If the hclink directory exists, it is not required)
 mkdir /data
 rm -rf /hclink/*
-tar -xvf hclink-web.tar_x86.gz -C /hclink (if x86)
-tar -xvf hclink-web.tar_arm.gz -C /hclink (if arm)
+tar -xvf hclink-web_x86.tar.gz -C /hclink (if x86)
+tar -xvf hclink-web_arm.tar.gz -C /hclink (if arm)
 /hclink/setup/ubuntu_setup.sh reinstall
 cat /etc/hosts
     127.0.0.1 localhost  default
